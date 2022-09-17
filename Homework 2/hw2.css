@@ -1,0 +1,20 @@
+p {
+    font-size: 2em;
+    line-height: 1.25;
+    text-align: left;
+}
+body {
+    margin: 23px;
+    padding: 1;
+    letter-spacing: .25em;
+}
+h1, h2 {
+    background-color: yellow;
+    text-transform: capitalize;
+    border-width: 3px;
+    border-style: solid solid dashed solid;
+}
+h3 {
+    color: rgb{255, 0, 0};
+    font-size: 3em;
+}

@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+    <body>
+        <script>
+            var num;
+            var max;
+            do{
+                num = prompt("Enter number");
+                max = num;
+                while(parseInt(num) != 0)
+                {
+                    if(parseInt(num) > parseInt(max)){
+                        max = num;
+                    }
+                    num = prompt("Enter number");
+                }
+            }
+            alert("Max number inputted was : " + max);
+        </script>
+    </body>
+</html>

@@ -1,4 +1,4 @@
-class drink{
+class Drink{
     constructor(cal, sugar, caf, cas, color)
     {
         this.cal = cal;
@@ -8,4 +8,5 @@ class drink{
         this.color = color;
     }
 }
+
 

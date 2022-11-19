@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<head>
+    <title> Image Swapper</title>
+
+
+</head>
+<body>
+
+    <script>
+        var img1 = document.createElement("img");
+        img1.src = "Photos/clocktower.jpg";
+        document.body.appendChild(img1);
+    </script>
+    <h> Click the button to swap the image</h>
+    <button id="btn1" type = "button"> Change</button>
+            <script> 
+            var isImageOne = true;
+            const btn1 = document.getElementById("btn1");
+            btn1.addEventListener("click", function(e){
+                if(isImageOne)
+                {
+                    img1.src = "Photos/entry.jpg";
+                    isImageOne = false;
+                }
+                else{
+                    img1.src = "Photos/clocktower.jpg";
+                    isImageOne = true;
+                }
+
+            });
+            </script>
+</body>

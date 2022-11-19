@@ -4,11 +4,8 @@
         <title>Drink Comparer</title>
         <link rel="stylesheet" href="style.css">
         <script src="objects.js"></script>
-        <script>
-            var selected = "coke";
         
-            
-        </script>
+      
     </head>
     <body>
         <div class = "t1">
@@ -19,13 +16,15 @@
                 <option value="coffee">Coffee</option>
                 <option value="mountain dew">Mountain Dew</option>
               </select>
-              <button id="btn1">Select</button>  
-              </form>
-              <script>
-                selected = document.querySelector('#btn1');  
-                console.log(selected);
-              </script>
-            </p>
+            <button id="btn1" type = "button"> Change</button>
+            <script> 
+            const btn1 = document.getElementById("btn1");
+            btn1.addEventListener("click", function(e){
+                const name = prompt("What is your name?");
+
+            });
+            
+            </script>
         </div>
         <div class = "t2">
             <p>
@@ -34,7 +33,7 @@
         </div>
         <div class = "c1">
             
-            The current selected drink is <script document.write(selected)></script>
+            The current selected drink is
         </div>
         <div class = "c2">
             

@@ -3,25 +3,33 @@
     <head>
         <title>Drink Comparer</title>
         <link rel="stylesheet" href="style.css">
-        <script src="objects.js"></script>
+        <script src ="Drink.js"></script>
+        <script src="Shelf.js"></script>
+        
         
       
     </head>
     <body>
+
         <div class = "t1">
 
             <p><form><select id="drinksselector1">
-                <option value="coke">Coke</option>
-                <option value="sprite">Sprite</option>
-                <option value="coffee">Coffee</option>
-                <option value="mountain dew">Mountain Dew</option>
+                <option value="1">Coke</option>
+                <option value="2">Sprite</option>
+                <option value="3" selected="selected">Coffee</option>
+                <option value="4">Mountain Dew</option>
               </select>
             <button id="btn1" type = "button"> Change</button>
+
             <script> 
             const btn1 = document.getElementById("btn1");
             btn1.addEventListener("click", function(e){
-                const name = prompt("What is your name?");
-
+                var e = document.getElementById("drinksselector1");
+                value1 = e.value;
+                text1 = e.options[e.selectedIndex].text;
+                alert(value1 + " " + text1);
+                display();
+                //currently working on how to get this display funciton to work and be detected
             });
             
             </script>
@@ -32,8 +40,7 @@
             </p>
         </div>
         <div class = "c1">
-            
-            The current selected drink is
+
         </div>
         <div class = "c2">
             

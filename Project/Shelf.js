@@ -6,9 +6,12 @@ class Shelf{
     Sprite = new Drink(2, 200, 33, 0, false, "red");
     Coffee = new Drink(3, 200, 33, 0, false, "red");
     Mountain_Dew = new Drink(4, 200, 33, 0, false, "red");
-    display(){
-        document.getElementsByClassName("c1").innerHTML = "Hello";
-        alert("Hello");
+    theList = [Coke, Sprite, Coffee, Mounatain_Dew];
+    display1(value){
+        alert("Display1 called");
+        alert(value);
+        this.theList[value].displayx;
+        
     }
 
 }

@@ -3,8 +3,8 @@
     <head>
         <title>Drink Comparer</title>
         <link rel="stylesheet" href="style.css">
-        <script src ="Drink.js"></script>
-        <script src="Shelf.js"></script>
+        <script type="text/javascript"  src = "Drink.js"></script>
+        <script type="text/javascript"  src="Shelf.js"></script>
         
         
       
@@ -19,17 +19,16 @@
                 <option value="3" selected="selected">Coffee</option>
                 <option value="4">Mountain Dew</option>
               </select>
-            <button id="btn1" type = "button"> Change</button>
-
+            <button id="btn1" type =  "button"> Change</button>
             <script> 
+            const theShelf = new Shelf();
             const btn1 = document.getElementById("btn1");
             btn1.addEventListener("click", function(e){
                 var e = document.getElementById("drinksselector1");
                 value1 = e.value;
                 text1 = e.options[e.selectedIndex].text;
                 alert(value1 + " " + text1);
-                display();
-                //currently working on how to get this display funciton to work and be detected
+                //s1.display1(value1);
             });
             
             </script>

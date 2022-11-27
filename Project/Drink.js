@@ -13,6 +13,11 @@ class Drink{
     {
         return num;
     }
+    displayx()
+    {
+        z = document.getElementsByClassName("c1");
+        z.innerHTML = (cal + " " + sugar );
+    }
 }
 
 

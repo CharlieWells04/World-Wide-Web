@@ -1,17 +1,12 @@
 class Shelf{
     constructor(){
-
     }
-    Coke = new Drink(1, 200, 33, 0, false, "red");
-    Sprite = new Drink(2, 200, 33, 0, false, "red");
-    Coffee = new Drink(3, 200, 33, 0, false, "red");
-    Mountain_Dew = new Drink(4, 200, 33, 0, false, "red");
-    theList = [Coke, Sprite, Coffee, Mounatain_Dew];
+    selectFiller = new Drink(0, 0, 0, 0, false, "none", "no Image");
+    Coffee = new Drink(3, 2, 3, 4, false, "red");
+    Mountain_Dew = new Drink(4, 2, 3, 4, false, "red");
+    theList = [this.selectFiller, this.Coke, this.Sprite, this.Coffee, this.Mountain_Dew];
     display1(value){
-        alert("Display1 called");
-        alert(value);
-        this.theList[value].displayx;
-        
+        this.value = value;
+        this.theList[value].displayx();
     }
-
 }

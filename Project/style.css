@@ -9,6 +9,7 @@ body{
     padding: 10px;
     border: 5px solid gray;
     font-size: 2em;
+    background-color: grey;
 }
 .t2 {
     box-sizing: border-box;
@@ -16,14 +17,17 @@ body{
     width: 40%;
     padding: 10px;
     border: 5px solid gray;
+    font-size: 2em;
+    background-color: grey;
         
 }
 .c1 {
     box-sizing: border-box;
-    float: right;
     width: 40%;
     padding: 10px;
     border: 5px solid gray;
+    float: left;
+    font-size: 2em;
         
 }
 .c2 {
@@ -31,24 +35,60 @@ body{
     width: 40%;
     padding: 10px;
     border: 5px solid gray;
+    float: right;
         
 }
 .m1 {
     box-sizing: border-box;
     width: 20%;
     padding: 10px;
-    border: 5px solid blue;
+    border: 5px solid #5d0d7a;
     margin-left: 40%;
     margin-right: 40%;
     text-align: center;
     font-size: 1.5em;
+    background-color: #5d0d7a;
+    color: lightgray;
 }
 .m2 {
     box-sizing: border-box;
     width: 20%;
     padding: 10px;
-    border: 5px solid blue;
+    border: 5px solid #5d0d7a;
     margin-left: 40%;
     margin-right: 40%;
 }
-
+.top {
+    box-sizing: border-box;
+    width: 100%;
+    padding: 10px;
+    border: 5px solid gray;
+    font-size: 2em;
+    text-align: center;
+    background-color: #5d0d7a;
+    color: lightgrey;
+}
+#btn1{
+    background-color: white;  
+    font-size: .5em;
+    background-color: #5d0d7a;
+    color: lightgray;
+    border-color: white;
+}
+#drinksselector1{
+    font-size: .5em;
+    background-color: #5d0d7a;
+    color: lightgray;
+}
+#btn2{
+    background-color: white;  
+    font-size: .5em;
+    background-color: #5d0d7a;
+    color: lightgray;
+    border-color: white;
+}
+#drinksselector2{
+    font-size: .5em;
+    background-color: #5d0d7a;
+    color: lightgray;
+}

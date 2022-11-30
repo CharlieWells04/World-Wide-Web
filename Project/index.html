@@ -3,49 +3,67 @@
     <head>
         <title>Drink Comparer</title>
         <link rel="stylesheet" href="style.css">
-        <script type="text/javascript"  src = "Drink.js"></script>
-        <script type="text/javascript"  src="Shelf.js"></script>
-        
-        
-      
+        <script src = "Drink.js"></script>
+        <script src= "Shelf.js"></script>  
     </head>
     <body>
-
+        <div class = "top">
+            Drink Comparer
+        </div>
         <div class = "t1">
 
             <p><form><select id="drinksselector1">
+                <option value="0" selected="selected">Select Drink...</option>
                 <option value="1">Coke</option>
                 <option value="2">Sprite</option>
-                <option value="3" selected="selected">Coffee</option>
+                <option value="3">Coffee</option>
                 <option value="4">Mountain Dew</option>
               </select>
             <button id="btn1" type =  "button"> Change</button>
+            
             <script> 
-            const theShelf = new Shelf();
             const btn1 = document.getElementById("btn1");
+            let theShelf = new Shelf();
             btn1.addEventListener("click", function(e){
                 var e = document.getElementById("drinksselector1");
                 value1 = e.value;
                 text1 = e.options[e.selectedIndex].text;
-                alert(value1 + " " + text1);
-                //s1.display1(value1);
+                theShelf.display1(value1);
             });
             
             </script>
         </div>
         <div class = "t2">
-            <p>
-                Drink 2
-            </p>
+
+            <p><form><select id="drinksselector2">
+                <option value="0" selected="selected">Select Drink...</option>
+                <option value="1">Coke</option>
+                <option value="2">Sprite</option>
+                <option value="3">Coffee</option>
+                <option value="4">Mountain Dew</option>
+              </select>
+            <button id="btn2" type = "button"> Change</button>
+            
+            <script> 
+            const btn2 = document.getElementById("btn2");
+            btn2.addEventListener("click", function(e){
+                var e = document.getElementById("drinksselector2");
+                value2 = e.value;
+                text2 = e.options[e.selectedIndex].text;
+                alert(value2 + " " + text2);
+            });
+            
+            </script>
         </div>
         <div class = "c1">
+            Left side
 
         </div>
         <div class = "c2">
-            
+            Right Side
         </div>
         <div class = "m1">
-            Nutritonal Facts
+            Compare
         </div>
         <div class = "m2">
 

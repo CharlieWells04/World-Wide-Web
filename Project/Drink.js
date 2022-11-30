@@ -1,5 +1,5 @@
 class Drink{
-    constructor(num, cal, sugar, caf, cas, color, img)
+    constructor(num, cal, sugar, caf, cas, color)
     {
         this.num = num;
         this.cal = cal;
@@ -7,7 +7,6 @@ class Drink{
         this.caf = caf;
         this.cas = cas;
         this.color = color;
-        this.img = img;
     }
     getNumber()
     {
@@ -20,9 +19,9 @@ class Drink{
         }
         else{
             document.getElementsByClassName("c1")[0].innerHTML = "Calories: " + this.cal + "<br><br>Sugar: " + this.sugar + "g<br><br>Caffiene: " + this.caf + "mg<br><br>Artificial Sweetener: " + this.cas;
-            theImage = document.createElement("img");
-            theImage.src = this.img;
-            document.getElementsByClassName("c1")[0].append(theImage);
+            theImage = new Image(100, 100);
+            theImage.src = "Images/coca-cola-original-12oz.jpg";
+            document.getElementsByClassName("c1")[0].appendChild(theImage);
         }
     }
 

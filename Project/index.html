@@ -14,13 +14,40 @@
 
             <p><form><select id="drinksselector1">
                 <option value="0" selected="selected">Select Drink...</option>
-                <option value="1">Coke</option>
-                <option value="2">Sprite</option>
-                <option value="3">Coffee</option>
-                <option value="4">Mountain Dew</option>
-              </select>
+                <option value="1">AppleJuice</option>
+                <option value="2">Coffee</option>
+                <option value="3">Coke</option>
+                <option value="4">Crush</option>
+                <option value="5">Diet Coke</option>
+                <option value="6">Diet Pepsi</option>
+                <option value="7">Dr. Pepper</option>
+                <option value="8">Fanta</option>
+                <option value="9">Gatorade</option>
+                <option value="10">Ginger Ale</option>
+                <option value="11">Lemonade(MinuteMaid)</option>
+                <option value="12">Lemonade(Charged)</option>
+                <option value="13">Milk(Chocolate)</option>
+                <option value="14">Milk(Skim)</option>
+                <option value="15">Milk(Whole)</option>
+                <option value="16">Milk(2%)</option>
+                <option value="17">Monster</option>
+                <option value="18">Mountain Dew</option>
+                <option value="19">OrangeJuice</option>
+                <option value="20">Pepsi</option>
+                <option value="21">Powerade</option>
+                <option value="22">Red Bull</option>
+                <option value="23">Rootbeer(Barqs)</option>
+                <option value="24">Rootbeer(Mug)</option>
+                <option value="25">Sprite</option>
+                <option value="26">Tea(Black)</option>
+                <option value="27">Tea(Green)</option>
+                <option value="28">Tea(Iced/Sweetened)</option>
+                <option value="29">Tea(Iced/Unsweetened)</option>
+                <option value="30">Water</option>
+                <option value="31">7-up</option>
+            </select>
             <button id="btn1" type =  "button"> Change</button>
-            
+            </form>
             <script> 
             const btn1 = document.getElementById("btn1");
             let theShelf = new Shelf();
@@ -32,40 +59,69 @@
             });
             
             </script>
+        
         </div>
         <div class = "t2">
 
-            <p><form><select id="drinksselector2">
+            <p><form><select id="drinksselector1">
                 <option value="0" selected="selected">Select Drink...</option>
-                <option value="1">Coke</option>
-                <option value="2">Sprite</option>
-                <option value="3">Coffee</option>
-                <option value="4">Mountain Dew</option>
-              </select>
-            <button id="btn2" type = "button"> Change</button>
-            
+                <option value="1">AppleJuice</option>
+                <option value="2">Coffee</option>
+                <option value="3">Coke</option>
+                <option value="4">Crush</option>
+                <option value="5">Diet Coke</option>
+                <option value="6">Diet Pepsi</option>
+                <option value="7">Dr. Pepper</option>
+                <option value="8">Fanta</option>
+                <option value="9">Gatorade</option>
+                <option value="10">Ginger Ale</option>
+                <option value="11">Lemonade(MinuteMaid)</option>
+                <option value="12">Lemonade(Charged)</option>
+                <option value="13">Milk(Chocolate)</option>
+                <option value="14">Milk(Skim)</option>
+                <option value="15">Milk(Whole)</option>
+                <option value="16">Milk(2%)</option>
+                <option value="17">Monster</option>
+                <option value="18">Mountain Dew</option>
+                <option value="19">OrangeJuice</option>
+                <option value="20">Pepsi</option>
+                <option value="21">Powerade</option>
+                <option value="22">Red Bull</option>
+                <option value="23">Rootbeer(Barqs)</option>
+                <option value="24">Rootbeer(Mug)</option>
+                <option value="25">Sprite</option>
+                <option value="26">Tea(Black)</option>
+                <option value="27">Tea(Green)</option>
+                <option value="28">Tea(Iced/Sweetened)</option>
+                <option value="29">Tea(Iced/Unsweetened)</option>
+                <option value="30">Water</option>
+                <option value="31">7-up</option>
+            </select>
+            <button id="btn2" type =  "button"> Change</button>
+            </form>
             <script> 
             const btn2 = document.getElementById("btn2");
+            let theShelf2 = new Shelf();
             btn2.addEventListener("click", function(e){
                 var e = document.getElementById("drinksselector2");
                 value2 = e.value;
                 text2 = e.options[e.selectedIndex].text;
-                alert(value2 + " " + text2);
+                theShelf2.display2(value2);
             });
             
             </script>
         </div>
         <div class = "c1">
-            Left side
-
+            Select A Drink
         </div>
         <div class = "c2">
-            Right Side
+            Select A Drink
         </div>
         <div class = "m1">
-            Compare
+    
         </div>
         <div class = "m2">
+            
         </div>
     </body>
 </html>

@@ -20,8 +20,18 @@ class Drink{
         else{
             document.getElementsByClassName("c1")[0].innerHTML = "Calories: " + this.cal + "<br><br>Sugar: " + this.sugar + "g<br><br>Caffiene: " + this.caf + "mg<br><br>Artificial Sweetener: " + this.cas;
             theImage = new Image(100, 100);
-            theImage.src = "Images/coca-cola-original-12oz.jpg";
-            document.getElementsByClassName("c1")[0].appendChild(theImage);
+            theImage.src = this.img;
+            document.getElementsByClassName("c1")[1].appendChild(theImage);
+        }
+    }
+    displayy()
+    {
+        if(this.num == 0){
+            document.getElementsByClassName("c2")[0].innerHTML = "Select A Drink";
+        }
+        else{
+            document.getElementsByClassName("c2")[0].innerHTML = "Calories: " + this.cal + "<br><br>Sugar: " + this.sugar + "g<br><br>Caffiene: " + this.caf + "mg<br><br>Artificial Sweetener: " + this.cas;
+            
         }
     }
 

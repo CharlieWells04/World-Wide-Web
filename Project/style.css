@@ -49,14 +49,38 @@ body{
     font-size: 1.5em;
     background-color: #5d0d7a;
     color: lightgray;
+    height: 4em;
 }
 .m2 {
     box-sizing: border-box;
     width: 20%;
-    padding: 10px;
+    
     border: 5px solid #5d0d7a;
     margin-left: 40%;
     margin-right: 40%;
+    padding-bottom: 25em;
+}
+.LCal {
+    box-sizing: border-box;
+    width: 10%; 
+    border: 5px solid grey;
+    background-color: #5d0d7a;
+    float: left;
+    padding-top: 2em;
+    padding-right: 44%;
+    padding-bottom: 1em;
+}
+.RCal {
+    box-sizing: border-box;
+    width: 10%;
+    padding-top: 2em;
+    border: 5px solid grey;
+    background-color: grey;
+    float: right;
+    padding-left: 44%;
+    background-color: white;
+    padding-bottom: 1em;
+    
 }
 .top {
     box-sizing: border-box;
@@ -67,6 +91,17 @@ body{
     text-align: center;
     background-color: #5d0d7a;
     color: lightgrey;
+}
+.top2 {
+    box-sizing: border-box;
+    width: 100%;
+    padding: 10px;
+    border: 5px solid gray;
+    font-size: 2em;
+    text-align: center;
+    background-color: lightgrey;
+    color: black;
+    margin-bottom:1em;
 }
 #btn1{
     background-color: white;  
@@ -92,4 +127,18 @@ body{
     font-size: .5em;
     background-color: #5d0d7a;
     color: lightgray;
+}
+.gridBoxOwn{
+    box-sizing: border-box;
+    width: 100%;
+    padding: 10px;
+    border: 5px solid  black;
+    font-size: 2em;
+    text-align: center;
+    background-color: lightgrey;
+    color: lightgrey;
+    margin: 0em;
+}
+.gridBoxOwn:link{
+    color: grey;
 }

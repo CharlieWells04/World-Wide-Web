@@ -28,7 +28,7 @@ body{
     border: 5px solid gray;
     float: left;
     font-size: 2em;
-        
+    background-color: lightgrey;
 }
 .c2 {
     box-sizing: border-box;
@@ -37,6 +37,7 @@ body{
     border: 5px solid gray;
     float: right;
     font-size: 2em;
+    background-color: lightgrey;
 }
 .m1 {
     box-sizing: border-box;
@@ -58,7 +59,7 @@ body{
     border: 5px solid #5d0d7a;
     margin-left: 40%;
     margin-right: 40%;
-    padding-bottom: 25em;
+    padding-bottom: 22em;
 }
 .LCal {
     box-sizing: border-box;
@@ -141,4 +142,37 @@ body{
 }
 .gridBoxOwn:link{
     color: grey;
+}
+.alldrinkslink {
+    box-sizing: border-box;
+    width: 33.33%;
+    padding: 10px;
+    border: 5px solid gray;
+    font-size: 2em;
+    text-align: center;
+    background-color: lightgrey;
+    color: lightgrey;
+    float: left;
+}
+.AboutUs {
+    box-sizing: border-box;
+    width: 33.33%;
+    padding: 10px;
+    border: 5px solid gray;
+    font-size: 2em;
+    text-align: center;
+    background-color: lightgray;
+    color: lightgrey;
+    float: right;
+}
+.ContactUs {
+    box-sizing: border-box;
+    width: 33.33%;
+    padding: 10px;
+    border: 5px solid gray;
+    font-size: 2em;
+    text-align: center;
+    background-color: lightgrey;
+    color: lightgrey;
+    float: right;
 }

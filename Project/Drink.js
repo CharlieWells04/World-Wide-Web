@@ -22,7 +22,7 @@ class Drink{
             document.getElementsByClassName("c1")[0].innerHTML = "Select A Drink";
         }
         else{
-            document.getElementsByClassName("c1")[0].innerHTML = "Calories: " + this.cal + "<br><br>Sugar: " + this.sugar + "g<br><br>Caffiene: " + this.caf + "mg<br><br>Artificial Sweetener: " + this.cas;
+            document.getElementsByClassName("c1")[0].innerHTML = "Calories: " + this.cal + "<br><br>Sugar: " + this.sugar + "g<br><br> Caffeine: " + this.caf + "mg<br><br>Artificial Sweetener: " + this.cas;
             
         }
     }
@@ -32,7 +32,7 @@ class Drink{
             document.getElementsByClassName("c2")[0].innerHTML = "Select A Drink";
         }
         else{
-            document.getElementsByClassName("c2")[0].innerHTML = "Calories: " + this.cal + "<br><br>Sugar: " + this.sugar + "g<br><br>Caffiene: " + this.caf + "mg<br><br>Artificial Sweetener: " + this.cas;
+            document.getElementsByClassName("c2")[0].innerHTML = "Calories: " + this.cal + "<br><br>Sugar: " + this.sugar + "g<br><br>Caffeine: " + this.caf + "mg<br><br>Artificial Sweetener: " + this.cas;
             
         }
     }

@@ -80,7 +80,7 @@ body{
     width: 100%; 
     border: 5px solid black;
     background-color: grey;
-    padding-bottom: .4em;
+    padding-bottom: .6em;
     margin-top: 3.5em;
 }
 .RCal {
@@ -94,6 +94,50 @@ body{
     background-color: white;
     padding-bottom: 1em;
     padding-right: 0em;
+}
+.RSug {
+    box-sizing: border-box;
+    width: 50%;
+    padding-top: 2em;
+    border: 5px solid grey;
+    background-color: grey;
+    float: right;
+    padding-left: 0%;
+    background-color: white;
+    padding-bottom: 1em;
+    padding-right: 0em;
+}
+.LSug {
+    box-sizing: border-box;
+    width: 50%; 
+    border: 5px solid grey;
+    background-color: white;
+    float: left;
+    padding-top: 2em;
+    padding-right: 0%;
+    padding-bottom: 1em;
+}
+.RCaf {
+    box-sizing: border-box;
+    width: 50%;
+    padding-top: 2em;
+    border: 5px solid grey;
+    background-color: grey;
+    float: right;
+    padding-left: 0%;
+    background-color: white;
+    padding-bottom: 1em;
+    padding-right: 0em;
+}
+.LCaf {
+    box-sizing: border-box;
+    width: 50%; 
+    border: 5px solid grey;
+    background-color: white;
+    float: left;
+    padding-top: 2em;
+    padding-right: 0%;
+    padding-bottom: 1em;
 }
 .top {
     box-sizing: border-box;

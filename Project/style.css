@@ -230,3 +230,22 @@ body{
     color: lightgrey;
     float: right;
 }
+.maintext{
+    box-sizing: border-box;
+    width: 70%;
+    border: 5px solid gray;
+    font-size: 1.2em;
+    background-color: lightgrey;
+
+}
+.cc{
+    box-sizing: border-box;
+    width: 70%;
+    border: 5px solid gray;
+    font-size: 1.2em;
+    background-color: lightgrey;
+}
+.photos{
+    width: 30%;
+    float: right;
+}
